@@ -3,6 +3,7 @@ import ImageHero from '../../../public/img-hero.svg';
 import BgImage from '../../../public/bg-image.png';
 import NavBar from "../navbar/navbar";
 import Image from "next/image";
+import Popular from '../popularSection/popular';
 
 export default function Hero() {
     return (
@@ -26,6 +27,9 @@ export default function Hero() {
                         <Image src={ImageHero} alt={""} />
                     </div>
                 </div>
+            </div>
+            <div className='z-10 relative'>
+                <Popular />
             </div>
         </section>
     )
