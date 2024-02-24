@@ -7,7 +7,7 @@ import Popular from '../popularSection/popular';
 
 export default function Hero() {
     return (
-        <section className="w-full h-screen">
+        <section className="w-full min-h-screen">
             <Image src={BgImage} alt={""} className="absolute w-full h-full" />
             <div className="z-10 relative">
                 <NavBar />
