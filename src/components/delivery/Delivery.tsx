@@ -5,9 +5,9 @@ import CoffeCupTwo from '../../../public/coffee-cup2.svg';
 
 export default function Delivery() {
     return (
-        <section className="w-[80dvw] mx-auto py-20">
+        <section className="w-[80dvw] mx-auto lg:py-20">
             <h1 className="text-black font-bold text-2xl">How to use delivery service</h1>
-            <div className="w-full flex flex-row justify-around gap-5 pt-5">
+            <div className="w-full flex flex-col lg:flex-row justify-around gap-5 pt-5">
                 <div className='flex flex-col gap-3 items-center justify-center'>
                     <Image src={CoffeCup} alt={''} />
                     <h1 className='text-[#2F2105] font-medium'>choose your coffee</h1>
