@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function SpecialMenu() {
     return (
-        <section className="w-[80dvw] mx-auto h-screen pt-10">
+        <section className="w-[80dvw] mx-auto h-auto pt-10">
             <h1 className="text-2xl font-bold pt-10">Special menu for you</h1>
             <div className="w-full flex flex-col lg:flex-row lg:flex-wrap gap-5">
                 <div className="bg-white/40 w-72 lg:w-96 rounded-md h-96 p-2">
