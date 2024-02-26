@@ -1,8 +1,9 @@
-import AboutUs from "@/components/about/about";
 import Avaliations from "@/components/avaliations/Avaliations";
+import SpecialMenu from "@/components/menusection/SpecialMenu";
 import Delivery from "@/components/delivery/Delivery";
 import Hero from "@/components/herosection/hero";
-import SpecialMenu from "@/components/menusection/SpecialMenu";
+import Footer from "@/components/footer/Footer";
+import AboutUs from "@/components/about/about";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutUs />
       <SpecialMenu />
       <Avaliations />
+      <Footer />
     </div>
   );
 }
